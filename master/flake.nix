@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-imgcat-master.flake = false;
+  inputs.src-imgcat-master.ref   = "refs/heads/master";
   inputs.src-imgcat-master.owner = "not-lum";
-  inputs.src-imgcat-master.ref   = "master";
   inputs.src-imgcat-master.repo  = "imgcat";
   inputs.src-imgcat-master.type  = "github";
   

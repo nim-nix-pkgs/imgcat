@@ -11,7 +11,6 @@
   inputs.src-imgcat-master.ref   = "refs/heads/master";
   inputs.src-imgcat-master.owner = "not-lum";
   inputs.src-imgcat-master.repo  = "imgcat";
-  inputs.src-imgcat-master.dir   = "";
   inputs.src-imgcat-master.type  = "github";
   
   inputs."imageman".owner = "nim-nix-pkgs";
